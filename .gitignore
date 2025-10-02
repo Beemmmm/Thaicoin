@@ -1,0 +1,14 @@
+# Compiled Python files (Cache)
+*.pyc
+__pycache__/
+
+# Virtual environment (เพื่อให้ Git ละเว้นโฟลเดอร์ .venv)
+.venv/
+env/
+venv/
+
+# Secret/Sensitive files
+.env
+local_settings.py
+*.key 
+*.pem
